@@ -17,7 +17,8 @@ while True:
         std_name= input("enter student name: ")
         std_age= int(input("enter student age: "))
         std_marks= int(input("enter student marks: "))
-        record = (id,std_name,std_age,std_marks)
+        print("\n")
+        record = id,std_name,std_age,std_marks
         obj.student_info(record)
     if ui=="V":
         print(obj.a)
