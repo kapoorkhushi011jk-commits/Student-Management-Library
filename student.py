@@ -7,5 +7,6 @@ class Students:
         return self.a
     
 obj=Students()
+adding = eval(input("Add student info in this order []"))
 print(obj.student_info(23,"dgdghf",45,242))
 print(obj.a)
