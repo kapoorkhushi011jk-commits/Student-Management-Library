@@ -7,7 +7,10 @@ print("--> To update record enter U")
 print("--> To delete record enter D")
 print("--> To display student with highest marks enter H")
 print("--> To exit enter E\n")
-user_input= input("Enter your input: ").upper()
-if user_input == "A":
-
-
+ui= input("Enter your input: ").upper()
+if ui == "A":
+    adding = eval(input("Add student info in this order [Student ID, Student Name, Age, Marks]: "))
+    obj= Students()
+    obj.student_info(adding)
+if ui=="V":
+    print(obj.a)
