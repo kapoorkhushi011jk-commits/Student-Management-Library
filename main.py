@@ -1,4 +1,6 @@
 from student import *
+obj= Students()
+
 print("#-----------WELCOME TO STUDENT MANAGEMENT LIBRARY------------#")
 print("--> To add info enter A")
 print("--> To view all students enter V")
@@ -14,7 +16,6 @@ if ui == "A":
     std_age= int(input("enter student age: "))
     std_marks= int(input("enter student marks: "))
     record = (id,std_name,std_age,std_marks)
-    obj= Students()
     obj.student_info(record)
 if ui=="V":
     print(obj.a)
