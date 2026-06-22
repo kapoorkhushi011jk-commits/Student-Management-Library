@@ -6,7 +6,4 @@ class Students:
         self.a.append(info)
         return self.a
     
-obj=Students()
 
-print(obj.student_info(adding))
-print(obj.a)
